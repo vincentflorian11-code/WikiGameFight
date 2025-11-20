@@ -1,0 +1,248 @@
+<html lang="fr"><head>
+        <title> WikiGameFight-Accueil </title>
+        <meta charset="utf-8">
+<style>
+.image-contour1 {
+    border: 10px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    display: block;
+    width: 17vw;
+    height: 17vw;
+    position: absolute; right : 40.4vw; top : 21.8vw;
+    object-fit: cover;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.image-contour1:hover {
+    transform: scale(1.05);
+  }
+
+.image-contour2 {
+    border: 10px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    display: block;
+    width: 17vw;
+    height: 17vw;
+    object-fit: cover;
+    position: absolute; right : 21vw; top : 20vw;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.image-contour2:hover {
+    transform: scale(1.05);
+  }
+
+.image-contour3 {
+    border: 10px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    display: block;
+    width: 17vw;
+    height: 17vw;
+    position: absolute; right : 1.5vw; top : 18vw;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.image-contour3:hover {
+    transform: scale(1.05);
+  }
+
+.image-contour4 {
+    border: 10px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    display: block;
+    width: 17vw;
+    height: 17vw;
+    position: absolute; left : 21vw; top : 20vw;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.image-contour4:hover {
+    transform: scale(1.05);
+  }
+
+.image-contour5 {
+    border: 10px solid rgb(140, 140, 140);
+    border-radius: 20px;
+    display: block;
+    width: 17vw;
+    height: 17vw;
+    position: absolute; left : 1.5vw; top : 18vw;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.image-contour5:hover {
+    transform: scale(1.05);
+  }
+
+.texte-sous-image-SMB {
+    text-align: center;
+    font-size : 3vw;
+    position: absolute; right : 47.2vw; top : 37.8vw;
+    color: rgb(254, 206, 102);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.texte-sous-image-SMB:hover {
+    transform: scale(1.05);
+  }
+
+.texte-sous-image-histoires-des-jeux {
+    text-align: center;
+    font-size : 2.5vw;
+    position: absolute; right : 21vw; top : 37vw;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.texte-sous-image-histoires-des-jeux:hover {
+    transform: scale(1.05);
+  }
+
+.texte-sous-image-evolution {
+    text-align: center;
+    font-size : 2.5vw;
+    position: absolute; right : 5.5vw; top : 35vw;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.texte-sous-image-evolution:hover {
+    transform: scale(1.05);
+  }
+
+.texte-sous-image-e-sport {
+    text-align: center;
+    position: absolute; left : 26vw; top : 38vw;
+    font-size : 2.5vw;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.texte-sous-image-e-sport:hover {
+    transform: scale(1.05);
+  }
+
+.texte-sous-image-impact-culturel {
+    text-align: center;
+    position: absolute; left : 2.7vw; top : 36.2vw;
+    font-size : 2.5vw;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+
+.texte-sous-image-impact-culturel:hover {
+    transform: scale(1.05);
+  }
+
+.texte-menu-sélection {
+    text-align: center;
+    font-size : 40px;
+    color: rgb(255, 255, 255);
+    position: absolute; top : 20px;
+  }
+
+.texte-menu-sélection2 {
+    text-align: center;
+    font-size : 40px;
+    color: rgb(254, 206, 102);
+    position: absolute; top : 8vw;
+  }
+
+.image-background {
+    height : 55vw;
+    overflow: hidden;
+    background-image: url("https://i.pinimg.com/originals/ae/b2/03/aeb20389941179b4cc4d0185f9ee1664.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+
+.container-images {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.btn1 {
+    border: 2px solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(254, 206, 102);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1vw;
+    transition: transform 0.3s ease;
+    position: absolute; right : 8vw; top : 1vw;
+}
+
+.btn1:hover {
+    transform: scale(1.05);
+    background-color: rgb(222, 165, 41);
+}
+
+.btn2 {
+    border: 2px solid rgb(201, 163, 81);
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(254, 206, 102);
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 1vw;
+    transition: transform 0.3s ease;
+    position: absolute; right : 1vw; top : 1vw;
+}
+
+.btn2:hover {
+    transform: scale(1.05);
+    background-color: rgb(222, 165, 41);
+}
+</style>
+    <style type="text/css" id="operaUserStyle"></style></head>
+    <body class="image-background">
+        <h1><a href="Site_Internet_WikiGameFight.html" style="color: rgb(254, 206, 102);" style="text-decoration: none;"> WikiGameFight</h1>
+        </a>
+        <a href="https://www.example.com" class="btn1">A Propos</a>
+        <a href="https://www.example.com" class="btn2">Contact</a>
+
+<div class="container-images">
+<a href="pagestart.html" target="_blank" style="text-decoration: none;">
+<img src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_SuperSmashBrosUltimate_02_image1600w.jpg" class="image-contour1">
+<p class="texte-sous-image-SMB">Start</p>
+</a>
+<a href="pagehistoire.html" target="_blank" style="text-decoration: none;">
+<img src="https://segaretro.org/images/4/47/HeavyweightChamp_SMS_title.png" class="image-contour2">
+<p class="texte-sous-image-histoires-des-jeux">Histoires des jeux</p>
+</a>
+<a href="pageevolution.html" target="_blank" style="text-decoration: none;">
+<img src="https://i.ytimg.com/vi/ruMaTvyXwm4/maxresdefault.jpg" class="image-contour3">
+<p class="texte-sous-image-evolution">Evolution</p>
+</a>
+<a href="pagee-sport.html" target="_blank" style="text-decoration: none;">
+<img src="https://lesnews.ca/jovohiq/2025/11/18-evo-announcement-show-earlyt.webp.webp" class="image-contour4">
+<p class="texte-sous-image-e-sport">E-Sport</p>
+</a>
+<a href="pageimpact-culturel.html" target="_blank" style="text-decoration: none;">
+<img src="https://www.rabbits-games.fr/wp-content/uploads/2023/06/salle-arcade-retrogaming-froissy.jpg" class="image-contour5">
+<p class="texte-sous-image-impact-culturel">Impact Culturel</p>
+</a>
+<p class="texte-menu-sélection">Bienvenue sur le WikiGameFight !</p>
+<p class="texte-menu-sélection2">Menu de Sélection</p>
+</div>
+    
+</body></html>
